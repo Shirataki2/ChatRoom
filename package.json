@@ -1,0 +1,44 @@
+{
+  "name": "canvas-client",
+  "version": "1.0.0",
+  "description": "My hunky-dory Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@types/connect-redis": "^0.0.14",
+    "@types/express-session": "^1.17.0",
+    "@types/ioredis": "^4.16.2",
+    "@types/redis": "^2.8.21",
+    "@types/socket.io": "^2.1.6",
+    "@types/socket.io-client": "^1.4.33",
+    "@types/socket.io-redis": "^1.0.26",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^4.0.4",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.17.1",
+    "ioredis": "^4.17.1",
+    "net-browserify": "^0.2.4",
+    "nuxt": "^2.0.0",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "socket.io-redis": "^5.2.0",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
