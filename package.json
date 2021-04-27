@@ -29,7 +29,7 @@
     "ioredis": "^4.17.1",
     "net-browserify": "^0.2.4",
     "nuxt": "^2.0.0",
-    "redis": "^3.0.2",
+    "redis": "^3.1.1",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
     "socket.io-redis": "^5.2.0",
